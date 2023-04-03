@@ -112,7 +112,7 @@ transition: .5s;
     background-color: #014E56;
     color: white;
   }
-@media (max-width:550px){
+@media (max-width:770px){
     .nav{
         display: none;
     }
