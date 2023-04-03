@@ -2,7 +2,9 @@
  @import url(navbar.css);
  
 
-
+ html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -12,3 +14,8 @@
 .contaiiner{
     max-width: 1110px;
 }
+
+
+
+
+
