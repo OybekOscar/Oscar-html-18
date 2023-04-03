@@ -1,0 +1,31 @@
+
+
+
+
+
+
+/* footer - tepasi  */
+
+.up-footer{
+    margin: 0 auto;
+    padding-top: 200px;
+    background-color: #F67E7E; 
+    background-image: url(../images/up-footer.png);
+    background-repeat: no-repeat;
+    background-position: left 0px bottom 0px;
+    
+}
+.ready{
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.up-footer h2{
+    
+    font-weight: 700;
+font-size: 48px;
+line-height: 38px;
+color: #012F34;
+}
