@@ -1,10 +1,16 @@
 
-
+body{
+  background-color: #014E56;
+}
 .nav{
     position: fixed;
     top: 0;
     width: 100vw;
     background-color: #014E56;
+    transition: .7s;
+}
+#myteam{
+  transition: .7s;
 }
 .navbar{
     top: 0;
@@ -15,10 +21,11 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100 !important;
+    transition: .7s;
     
 }
 .nav-left{
-    padding: 77px 0;
+    padding: 57px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +47,7 @@ transition: .5s;
     color: #F67E7E;
 }
 .nav-rigth{
-    padding: 77px 0;
+    padding: 57px 0;
 }
 .nav-rigth button,
 .butt{
