@@ -1,0 +1,45 @@
+
+
+
+
+
+
+/* footer - tepasi  */
+
+.up-footer{
+    margin: 0 auto;
+    height: 200px;
+    background-color: #F67E7E; 
+    background-image: url(../images/up-footer.png);
+    background-repeat: no-repeat;
+    background-position: left 0px bottom 0px;
+    
+}
+.ready{
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.up-footer h2{
+    
+    font-weight: 700;
+font-size: 48px;
+line-height: 38px;
+color: #012F34;
+}
+
+@media (max-width: 550px){
+    .up-footer{
+        height: 375px;
+    }
+    .ready{
+        display: block;
+        text-align: center;
+    }
+    .ready h2{
+        padding-top: 83px;
+        padding-bottom:24px;  
+}
+}
