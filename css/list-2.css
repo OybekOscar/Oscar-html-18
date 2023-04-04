@@ -1,1 +1,433 @@
 @import url(common.css);
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+@import url(footer.css);
+*{
+    font-family: 'Livvic', sans-serif;
+
+}
+.contaiiner{
+    margin: 0 auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: #014E56;
+    z-index: 100;
+}
+.navbar{
+    top: 0;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100 !important;
+    
+}
+.nav-left{
+    padding: 77px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left ul{
+    padding-left: 40px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-left a{
+    margin-left: 40px;
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+transition: .5s;
+}
+.nav-left a:hover{
+    color: #F67E7E;
+}
+.nav-rigth{
+    padding: 77px 0;
+}
+.nav-rigth button,
+.butt{
+    padding: 10px 32.5px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color:white;
+    background-color: transparent;
+    transition: .5s;
+}
+a{
+    color:white;
+
+}
+.nav-rigth button:hover,
+.butt:hover{
+    transform: scale(1.1);
+    background: #ffff;
+    color: #002529 ;
+}
+.nav-rigth button:hover a{
+    color: #002529 ;
+
+}
+
+
+
+
+.topnav {
+    display: none;
+    overflow: hidden;
+    background-color: #014E56;
+    position: relative;
+    transition: .5s;
+  }
+  
+ 
+  .topnav #myLinks {
+    display: none;
+    transition: all 1s ease-in-out;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: .5s;
+  }
+  
+ 
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  .topnav a:hover {
+    
+    color: #F67E7E;
+  }
+  
+ 
+  .active {
+    transition: 1s;
+    background-color: #014E56;
+    color: white;
+  }
+
+.about{
+    background: #014E56;
+    background-image: url(../images-daler/disk-red.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+    padding-top: 300px;
+}
+.main1{
+    display: flex;
+}
+.main1 h1{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+line-height: 100px;
+/* identical to box height, or 156% */
+
+margin: 0px 200px 176px 0px;
+color: #FFFFFF;
+}
+.main1 p{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+margin: 40px 0px 120px 0px;
+
+
+color: #FFFFFF;
+
+}
+.main2{
+    background: #012F34;
+    background-image: url(../images-daler/disk-green.png);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px;
+}
+.prefooter{
+    text-align: center;
+}
+.prefooter h1{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+padding-top: 140px;
+}
+.clients{
+    padding: 70px 0px 150px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 80px;
+}
+.main3{
+    background-image: url(../images-daler/disk-green3.png);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px;
+}
+.main3-back{
+    background: #004047;
+    background-image: url(../images-daler/disk-green2.png);
+background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+}
+.main3 h1{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+text-align: center;
+padding-top: 140px;
+color: #FFFFFF;
+text-align: center;
+}
+.box1{
+    background: #012F34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transition: .5s;
+}
+.grid-box{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 76px;
+    margin-top: 64px;
+    padding-bottom: 168px;
+}
+.box1 img{
+    margin-top: 35px;
+    transition: .5s;
+}
+.box1 h6{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+text-align: center;
+
+color: #79C8C7;
+margin-top: 13px;
+}
+.box1 p{
+    font-family: 'Livvic' ,;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 167% */
+
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 56px;
+}
+.box1 button{
+    background: #F67E7E;
+    padding: 20px;
+    border-radius: 50px;
+    width: 56px;
+height: 56px;
+border: #F67E7E;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: -28px;
+transition: .5s;
+}
+.box1 h5{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+margin-top: 8px;
+padding: 0px 48px;
+color: #FFFFFF;
+
+}
+.plus{
+    margin: 35px;
+}
+.aden{
+    margin-top: 35px;
+}
+.twitter{
+    margin-right: 8px;
+}
+.insta{
+    margin-left: 8px;
+}
+.box1:hover{
+    background: #002529;
+}
+.box1:hover img{
+    transform: scale(1.1);
+}
+.box1 button:hover{
+    background: #79C8C7;
+    transform: scale(1.1);
+}
+.box1 button:hover .plus{
+transform: rotate(45deg);
+}
+.clients img:hover{
+    transform: scale(1.1);
+}
+.clients img{
+    transition: .5s;
+}
+.insta{
+    padding-bottom: 60px;
+}
+.twitter{
+    padding-bottom: 60px;
+}
+@media only screen and (max-width:1140px){
+    .clients{
+        grid-template-columns: auto auto auto auto;
+        grid-row-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:951px){
+    .grid-box{
+        grid-template-columns: 1fr 1fr;
+    }
+    .clients{
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:706px){
+    .clients{
+        grid-template-columns: auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-box{
+        grid-template-columns: .6fr;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media ( max-width: 770px ){
+    .main1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main1 h1{
+        margin-bottom: 0px;
+        margin-right: 0;
+    }
+    .main1 img{
+        display: none;
+        padding-top: 0px;
+    }
+    .main1 p{
+        padding: 0px 30px;
+        margin-top: 1px;
+
+    }
+}
+@media only screen and (max-width:706px){
+    .clients{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 30px;
+        grid-column-gap: 0px;
+    }
+    .grid-box{
+        grid-template-columns: .6fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .main1 p{
+        padding: 0px 30px;
+    }
+}
+@media only screen and (max-width:600px){
+    .clients{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 30px;
+        grid-column-gap: 0px;
+        margin-left: 30%;
+    }
+    .grid-box{
+        grid-template-columns: .8fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .main h1{
+        font-size: 40px!important;
+
+    }
+    .main1 p{
+        padding: 0px 30px;
+        font-size: 15px!important;
+    }
+}
+@media (max-width:550px){
+    .about{
+        padding-top: 0;
+    }
+    .nav{
+        display: none;
+    }
+.topnav {
+    display: block;
+  }
+}

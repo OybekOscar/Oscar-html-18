@@ -1,10 +1,18 @@
  @import url(header.css);
  @import url(navbar.css);
+ @import url(footer.css);
  
 
  html{
     scroll-behavior: smooth;
 }
+button{
+    background: transparent;
+}
+a{
+    text-decoration: none;
+}
+ul{list-style-type: none;}
 *{
     margin: 0;
     padding: 0;

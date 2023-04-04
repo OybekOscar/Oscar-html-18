@@ -16,5 +16,221 @@ button{
 }
 
 
+.main{
+   padding-top: 133px;
+    margin-top: 180px;
+    background-image: url(../images/list-1/disk-bottom.png);
+    background-position: right 57px bottom 0;
+  
+    background-repeat: no-repeat;
+}
+.main-sections{
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-repeat: no-repeat;
+    align-content: space-between;
+   
+}
+#disk-left{
+    background-position: top 140px left 0;
+     background-repeat: no-repeat;
+    background-color: #014E56;
+    background-image: url(../images/list-1/disk-left.png);
+}
+.main-left h1{
+    padding-bottom: 250px;
+    font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #FFFFFF;
+
+}
+.main-right p{
+    padding-top: 80px;
+    padding-left: 20%;
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+}
 
 
+.main-2{
+    background-color: #012F34;
+    background-image: url(../images/list-1/Group\ 8.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0;
+    
+}
+.chiziq{
+    position: absolute;
+    left: 57%;
+    top: 250px;
+    width: 50px;
+    height: 4px;
+    background-color: #79C8C7;
+}
+.build{
+    margin: 0 auto;
+    padding-top: 198px;
+    display: grid;
+    grid-template-rows: 1fr;
+   grid-template-columns: 1fr 1fr;
+   justify-content: space-between;
+   grid-column-gap: 132px;
+}
+.build-item .items{
+    display: flex;
+}
+.build-item{
+    padding-bottom: 140px;
+}
+.build-item h3 {
+    padding-left: 23px;
+    padding-bottom: 16px;
+    font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #F67E7E;
+}
+.build-item p{
+    padding-left: 23px;
+    font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+
+}
+.build h2{
+    border: top 4px  solid #F67E7E;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.items:nth-child(2),
+.items:nth-child(3){
+    padding-top: 32px;
+}
+
+
+.main-3{
+    background-color: #014E56;
+    background-image: url(../images/list-1/Group\ 8.svg);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 0;
+   
+}
+
+.deliver{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+   
+}
+.ik{
+    background-image: url(../images/list-1/Group\ 8.svg);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+}
+.dev{
+  
+    padding-top: 140px;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 5;
+ 
+}
+.dev h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.deviler-item{
+    text-align: center;
+}
+.deviler-item p{
+    padding-top: 92px;
+    font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.deviler-item a{
+    padding-top: 24px;
+    font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #79C8C7;
+}
+.deviler-item em{
+    font-size: 13px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.deviler-item img{
+    padding-top: 32px;
+    padding-bottom: 151px;
+}
+.deviler-item{
+    background: url(../images/list-1/“.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50px;
+}
+
+@media (max-width: 770px){
+.main-sections{
+   text-align: center;
+   grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}.main-left h1{
+    padding: 0;
+}#disk-left{
+    background-image: none;
+}
+.main-right p{
+padding: 24px 0 256px 0;
+}.main{
+    background-position: left 50% bottom 0;
+}.build{
+    padding: 0;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr ;
+}
+.build h2{
+padding-top: 136px;
+padding-bottom: 64px;
+}
+.deliver{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+
+}
+@media (max-width: 550px){
+    .build, .build-item{
+        text-align: center;
+    }
+    .build-item div:nth-child(1),
+    .build-item div:nth-child(2),
+    .build-item div:nth-child(3)
+    {
+        display: inline-block;
+    }
+    .main{
+        margin-top: 0;
+    }
+    .chiziq{
+        display: none;
+    }
+}

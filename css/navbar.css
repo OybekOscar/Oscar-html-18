@@ -1,18 +1,31 @@
+
+body{
+  background-color: #014E56;
+}
 .nav{
     position: fixed;
+    top: 0;
     width: 100vw;
     background-color: #014E56;
+    transition: .7s;
+}
+#myteam{
+  transition: .7s;
 }
 .navbar{
+    top: 0;
+    position: relative;
     margin: 0 auto;
     max-width: 1110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100 !important;
+    transition: .7s;
     
 }
 .nav-left{
-    padding: 77px 0;
+    padding: 57px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +47,7 @@ transition: .5s;
     color: #F67E7E;
 }
 .nav-rigth{
-    padding: 77px 0;
+    padding: 57px 0;
 }
 .nav-rigth button,
 .butt{
@@ -99,7 +112,7 @@ transition: .5s;
     background-color: #014E56;
     color: white;
   }
-@media (max-width:550px){
+@media (max-width:770px){
     .nav{
         display: none;
     }
