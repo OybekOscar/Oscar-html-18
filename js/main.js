@@ -24,3 +24,17 @@ function openNavbar() {
       backtop.style.bottom = "-50px";
     }
   }
+
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "0px 10px";
+    document.getElementById("myteam").style.fill = "#F67E7E";
+    document.getElementById("nav").style.boxShadow="0px 5px 5px #F67E7E";
+  } else {
+    document.getElementById("navbar").style.padding = "10px 10px";
+    document.getElementById("myteam").style.fill = "white";
+    document.getElementById("nav").style.boxShadow="none";
+  }
+}
